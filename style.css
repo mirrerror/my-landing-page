@@ -87,3 +87,11 @@ a {
     color: #7d22c7;
     text-decoration: none;
 }
+
+.social-logo {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
