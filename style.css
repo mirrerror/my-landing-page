@@ -59,3 +59,11 @@ h2 {
 nav a:hover {
     color: #7d22c7;
 }
+
+.project-image {
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
