@@ -55,3 +55,7 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
+
+nav a:hover {
+    color: #7d22c7;
+}
