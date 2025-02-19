@@ -82,3 +82,8 @@ nav a:hover {
     margin: 20px auto;
     border-radius: 10px;
 }
+
+a {
+    color: #7d22c7;
+    text-decoration: none;
+}
