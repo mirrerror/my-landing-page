@@ -101,9 +101,18 @@ a {
     right: 20px;
     width: 100px;
     height: 100px;
-    animation: mascotEnter 1s ease-out 3s forwards;
+    animation: mascotEnter 1s ease-out 3s forwards, flip 10s ease-in-out infinite;
     cursor: pointer;
     transform: scale(0);
+}
+
+@keyframes flip {
+    0%, 100% {
+        transform: scale(1) rotateY(0deg);
+    }
+    50% {
+        transform: scale(1) rotateY(180deg);
+    }
 }
 
 @keyframes mascotEnter {
@@ -114,6 +123,7 @@ a {
         transform: scale(1) translateY(0);
     }
 }
+
 
 #mascot {
     position: fixed;
