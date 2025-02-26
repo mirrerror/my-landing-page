@@ -132,8 +132,16 @@ a {
     visibility: visible;
 }
 
-@media (max-width: 768px) {
+.footer {
+    display: block;
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
+@media (max-width: 768px) {
     .btn {
         font-size: 14px;
         padding: 8px 15px;
@@ -143,19 +151,22 @@ a {
         width: 100%;
         max-width: 400px;
     }
-    
-    .mobile-only {
-        display: block;
-        text-align: center;
-        background: #222;
-        padding: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
+
+    #desktop-version {
+        display: none;
+    }
+
+    #mobile-version {
+        font-size: 10px;
     }
 }
 
 @media (min-width: 769px) {
-    .mobile-only {
+    #desktop-version {
+        font-size: 10px;
+    }
+
+    #mobile-version {
         display: none;
     }
 }
