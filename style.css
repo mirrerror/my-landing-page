@@ -95,3 +95,43 @@ a {
     vertical-align: middle;
 }
 
+#mascot-img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    animation: mascotEnter 1s ease-out 3s forwards;
+    opacity: 0;
+    cursor: pointer;
+}
+
+@keyframes mascotEnter {
+    0% {
+        transform: scale(0.5) translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+#mascot {
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#mascot-message {
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+#mascot:hover #mascot-message {
+    visibility: visible;
+}
+
+
