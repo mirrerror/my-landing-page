@@ -102,6 +102,7 @@ a {
     width: 100px;
     height: 100px;
     animation: mascotEnter 1s ease-out 3s forwards, flip 10s ease-in-out infinite;
+    animation-delay: 3s, 6s;
     cursor: pointer;
     transform: scale(0);
 }
