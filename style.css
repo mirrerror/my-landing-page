@@ -132,6 +132,14 @@ a {
     right: 20px;
     display: flex;
     align-items: center;
+    pointer-events: none;
+    animation: enableHover 0s linear 4s forwards;
+}
+
+@keyframes enableHover {
+    100% {
+        pointer-events: auto;
+    }
 }
 
 #mascot-message {
