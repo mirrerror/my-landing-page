@@ -4,67 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-gray-900 text-white">
+
 <header>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 z-10">
+    <ul class="flex gap-6 py-3 pl-6">
+      <li><a href="#home" class="text-white hover:text-purple-600">Home</a></li>
+      <li><a href="#about" class="text-white hover:text-purple-600">About</a></li>
+      <li><a href="#projects" class="text-white hover:text-purple-600">Projects</a></li>
+      <li><a href="#contact" class="text-white hover:text-purple-600">Contact</a></li>
     </ul>
   </nav>
 </header>
 
-<section id="home">
-  <h1>Hey!</h1>
-  <br/>
-  <p>My name is Dmitrii. I'm a 21 years old Software Engineer from Moldova.</p>
-  <a href="#projects" class="btn">View My Projects</a>
+<section id="home" class="py-16 text-center">
+  <h1 class="text-4xl font-bold text-purple-600">Hey!</h1>
+  <p class="mt-4 text-xl">My name is Dmitrii. I'm a 21 years old Software Engineer from Moldova.</p>
+  <a href="#projects" class="inline-block mt-6 bg-purple-600 text-white py-2 px-4 rounded hover:bg-yellow-500">View My Projects</a>
 </section>
 
-<section id="about">
-  <h2>About Me</h2>
-  <br/>
-  <p>My technology stack is: Java, Python, Git, Maven, Spring Framework, Relational Databases.</p>
-  <p>I enjoy programming, solving complex tasks, learning new foreign languages and cultures.</p>
+<section id="about" class="py-16 text-center">
+  <h2 class="text-2xl font-bold text-white border-b-2 border-purple-600 inline-block pb-2 mb-8">About Me</h2>
+  <p class="text-lg">My technology stack is: Java, Python, Git, Maven, Spring Framework, Relational Databases.</p>
+  <p class="text-lg mt-4">I enjoy programming, solving complex tasks, learning new foreign languages and cultures.</p>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <br/>
-  <div class="project">
-    <h3>My CV as my first laboratory work</h3>
-    <img src="images/lab1.png" alt="My first laboratory work" class="project-image">
-    <p>This is just a web page created using HTML and it can be used as a CV, if tuned a bit.</p>
-    <a href="https://mirrerror.github.io/tum-web-lab1/">Project demo</a>
+<section id="projects" class="py-16 text-center">
+  <h2 class="text-2xl font-bold text-white border-b-2 border-purple-600 inline-block pb-2 mb-8">Projects</h2>
+  <div class="mb-8">
+    <h3 class="text-xl font-bold text-white mb-4">My CV as my first laboratory work</h3>
+    <img src="images/lab1.png" alt="My first laboratory work" class="w-96 mx-auto rounded-lg">
+    <p class="mt-4">This is just a web page created using HTML and it can be used as a CV, if tuned a bit.</p>
+    <a href="https://mirrerror.github.io/tum-web-lab1/" class="text-purple-600 hover:text-yellow-500 mt-4 inline-block">Project demo</a>
   </div>
 </section>
 
 <div id="mascot">
   <img src="images/mascot.png" alt="Archaeopteryx" id="mascot-img">
-  <div id="mascot-message">Hey! I'm Archaeopteryx.<br/>How are you doing today?</div>
+  <div id="mascot-message">Hey! I'm an Archaeopteryx.<br/>How are you doing today?</div>
 </div>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <br/>
-  <p>
-    <a href="https://www.linkedin.com/in/mirrerror/">
-      <img src="images/linkedin-logo.png" alt="LinkedIn Logo" class="social-logo"> My LinkedIn
+<section id="contact" class="py-16 text-center">
+  <h2 class="text-2xl font-bold text-white border-b-2 border-purple-600 inline-block pb-2 mb-8">Contact</h2>
+  <p class="text-lg">
+    <a href="https://www.linkedin.com/in/mirrerror/" class="text-purple-600 hover:text-yellow-500">
+      <img src="images/linkedin-logo.png" alt="LinkedIn Logo" class="inline-block w-5 h-auto mr-2"> My LinkedIn
     </a>
   </p>
-  <p>
-    <a href="https://github.com/mirrerror">
-      <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo"> My Github
+  <p class="text-lg mt-4">
+    <a href="https://github.com/mirrerror" class="text-purple-600 hover:text-yellow-500">
+      <img src="images/github-logo.png" alt="GitHub Logo" class="inline-block w-5 h-auto mr-2"> My Github
     </a>
   </p>
 </section>
 
-<p id="mobile-version" class="footer">This is the mobile version of the website</p>
-<p id="desktop-version" class="footer">This is the desktop version of the website</p>
+<p id="mobile-version" class="text-center py-4 bg-gray-800 mt-8 text-xs">This is the mobile version of the website</p>
+<p id="desktop-version" class="text-center py-4 bg-gray-800 mt-8 text-xs">This is the desktop version of the website</p>
+
 </body>
 </html>
