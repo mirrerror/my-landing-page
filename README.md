@@ -1,12 +1,12 @@
 # My Portfolio
 
-Welcome to my portfolio! This project showcases my work as a Software Engineer. It includes sections about me, my projects, and how to get in touch.
+Welcome to my portfolio! It includes sections about me, my projects, and how to get in touch.
 
 ## Features
 
 - **Navigation Bar**: A fixed navigation bar at the top for easy access to different sections of the portfolio.
 - **Responsive Design**: The layout adjusts for different screen sizes, ensuring a good experience on both desktop and mobile devices.
-- **Project Showcase**: Highlights my first laboratory work, including an image and a link to the live demo.
+- **Project Showcase**: Highlights my first laboratory work on the Web Programming course, including an image and a link to the live demo.
 
 ## Technology Stack
 
