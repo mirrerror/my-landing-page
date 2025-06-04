@@ -11,7 +11,7 @@ Welcome to my portfolio! This project showcases my work as a Software Engineer. 
 ## Technology Stack
 
 - HTML
-- CSS (with a reset stylesheet)
+- TailwindCSS
 
 ## Sections
 
